@@ -1,0 +1,30 @@
+.category-container {
+  width: 100%;
+  padding: 12px;
+
+  .category-title {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+  }
+
+  .categories-filter {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .category-checkbox {
+    height: 2rem;
+    font-size: 1rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 1.5rem;
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    cursor: pointer;
+  }
+}

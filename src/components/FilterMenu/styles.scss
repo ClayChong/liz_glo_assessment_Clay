@@ -1,0 +1,25 @@
+.filter-menu {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 100vw;
+  background: white;
+  transition: left 500ms;
+  transition-timing-function: ease-in-out;
+
+  &.show {
+    left: 0;
+  }
+
+  .wrapper {
+    position: relative;
+
+    button {
+      position: absolute;
+      top: 16px;
+      right: 10px;
+      padding: 12px 16px;
+    }
+  }
+}
